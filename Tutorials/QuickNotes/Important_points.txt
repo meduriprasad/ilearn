@@ -1,0 +1,19 @@
+Lambda Expression
+
+1. Lambdas enable functional programming
+2. Enable to write easier-to-use APIs and libraries
+3. Enables the parallel processing.
+4. addFunction = (int a, int b) -> a+b; //Simple Lambda Expression
+	
+	Myadd addFunction = int (int a, int b) -> a+b;
+	interface MyAdd {
+		int add (int x,int y);
+	}
+
+5. If interface having more than one method then Lambda will not recognize syntax.
+
+Functional Interface:
+-----------------------
+
+@FunctionalInterface annotation from java.lang package meant for Lambda
+
